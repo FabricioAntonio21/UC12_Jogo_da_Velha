@@ -156,6 +156,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form_JOGO";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_JOGO_FormClosed);
+            this.Load += new System.EventHandler(this.Form_JOGO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
